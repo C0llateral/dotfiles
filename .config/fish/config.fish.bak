@@ -1,0 +1,21 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+##########ALIASES##############
+
+alias v='nvim'
+alias bspwmrc='nvim .config/bspwm/bspwmrc'
+alias sxhkdrc='nvim .config/sxhkd/sxhkdrc'
+alias update='yay -Syu'
+alias la='ls -a'
+alias ps='sudo pacman -S'
+alias pr='sudo pacman -R'
+alias prns='sudo pacman -Rns'
+alias fishrc='nvim .config/fish/config.fish'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias msdl='npx dl-librescore@latest'
+
+cat ~/.cache/wal/sequences
+
+neofetch
