@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=0;x=959;y=30"/>
+      <property name="length" type="double" value="90.46875"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="33"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="12"/>
+        <value type="int" value="6"/>
+        <value type="int" value="5"/>
+        <value type="int" value="10"/>
+        <value type="int" value="14"/>
+        <value type="int" value="3"/>
+      </property>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0.54804270462633453"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-items" type="array">
+        <value type="string" value="SimpleScreenRecorder"/>
+        <value type="string" value="Badlion Client1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="discord1"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (55%)"/>
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (50%)"/>
+        <value type="string" value="gdevilspie"/>
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (51%)"/>
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (54%)"/>
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (52%)"/>
+        <value type="string" value="wi-fi network connection “cozinha-5g” active: cozinha-5g (53%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="discord"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="0"/>
+      <property name="digital-date-font" type="string" value="JetBrains Mono NL Medium Italic 10"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="appearance" type="uint" value="1"/>
+      <property name="button-title" type="uint" value="3"/>
+      <property name="custom-title" type="string" value="C0llateral"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1070251;chromium.instance10747;chromium.instance1111870;chromium.instance12166;chromium.instance1259546;chromium.instance1315880;chromium.instance138704;chromium.instance1434453;chromium.instance1632017;chromium.instance1682727;chromium.instance1749302;chromium.instance1917;chromium.instance2254202;chromium.instance2260997;chromium.instance2445808;chromium.instance2965389;chromium.instance302669;chromium.instance314262;chromium.instance3155396;chromium.instance3271043;chromium.instance3450822;chromium.instance3516664;chromium.instance3531114;chromium.instance371319;chromium.instance3744837;chromium.instance3746635;chromium.instance3784192;chromium.instance417267;chromium.instance470001;chromium.instance470594;chromium.instance656301;chromium.instance682628;chromium.instance78645;chromium.instance874305;chromium.instance8977;spotify"/>
+      <property name="show-notifications" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="tasklist">
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="true"/>
+    </property>
+  </property>
+</channel>
