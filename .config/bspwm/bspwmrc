@@ -1,0 +1,54 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+######AUTOSTART#######
+xsetroot -cursor_name left_ptr &
+picom --config $HOME/.config/picom/picom.conf &
+easyeffects --gapplication-service
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#xfdesktop -D &
+nm-applet &
+xfce4-panel -d &
+nitrogen --restore
+#feh --bg-scale /mnt/45e59898-b8ac-46c7-a967-6fcddd0b9fb4/Fotos/Papéis\ de\ Parede/Nature/
+#pexels-ryutaro-tsukata-5220010.jpg
+
+######MONITOR STUFF#######
+
+bspc monitor -d 1 2 3 4 5 6 7 8 
+
+######BSPC CONFIG######
+
+bspc config border_width        2
+bspc config window_gap          30
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_follows_pointer true
+bspc config bottom_padding 0
+bspc config top_padding 35
+bspc config active_border_color "#88C0D0"
+bspc config focused_border_color "#5294E2"
+bspc config pointer_modifier mod1
+bspc config pointer_action1 resize_side
+bspc config pointer_action1 resize_corner
+bspc config pointer_action3 move
+
+######WINDOW RULES######
+
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a Brave-browser desktop='2' follow=on 
+bspc rule -a kitty desktop='3' follow=on
+bspc rule -a notion-app-enhanced desktop='4' follow=on
+bspc rule -a discord desktop='7' follow=on
+bspc rule -a Github_Desktop desktop='4' follow=on
+bspc rule -a robloxplayerbeta.exe desktop='5' follow=on
+bspc rule -a Lutris desktop='5' follow=on
+bspc rule -a MuseScore4 desktop='4' follow=on
+bspc rule -a Spotify desktop='6' follow=on
+bspc rule -a PrismLauncher desktop='5' follow=on
+bspc rule -a StardewModdingAPI desktop='5' follow=on
+bspc rule -a Thunar desktop='8' follow=on
